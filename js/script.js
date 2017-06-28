@@ -23,7 +23,7 @@ function printQuote(){
   if (random_quote.year !== undefined){
     html += '<span class="year">' + random_quote.year + '</span>';
   }
-  </p>
+  html += '</p>';
 
   // print html to page
   document.getElementById('quote-box').innerHTML = html;
