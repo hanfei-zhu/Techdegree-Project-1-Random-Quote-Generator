@@ -7,4 +7,6 @@ function getRandomQuote(){
   /* function selects a random quote from quotes array
   output: returns randomly selected quotes object
   */
+  var random_int = parseInt((Math.random() * (quotes.length)) + 0);
+  return quotes[random_int].quote;
 }
