@@ -18,7 +18,7 @@ var quotes = [
   tags: ["goodness"]
   },
   {
-  quote: "Soft data, hard conflicts."
+  quote: "Soft data, hard conflicts.",
   source: "Gerhard Kocher",
   citation: "Quotlr App",
   tags: ["information"]
