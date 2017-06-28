@@ -8,7 +8,6 @@ var quotes = [
   {
   quote: "Life begins at the end of your comfort zone.",
   source: "Neale Donald Walsch",
-  citation: "Quotlr App",
   tags: ["life"]
   },
   {
@@ -20,19 +19,16 @@ var quotes = [
   {
   quote: "Soft data, hard conflicts.",
   source: "Gerhard Kocher",
-  citation: "Quotlr App",
   tags: ["information"]
   },
   {
   quote: "Always laugh when you can. It is cheap medicine.",
   source: "Lord Byron",
-  citation: "Quotlr App",
   tags: ["medicine", "laugh"]
   },
   {
   quote: "I do not suffer from insanity, I enjoy every minute of it.",
   source: "Edgar Allan Poe",
-  citation: "Quotlr App",
   tags: ["mind", "insanity", "suffer", "unjoy"]
   }
 ];
