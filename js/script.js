@@ -25,7 +25,7 @@ function printQuote(){
   }
   html += '</p>';
 
-  html += '<BODY onload="changeBackground('red');">'
+  html += '<BODY onload="changeBackground("red");">';
 
   // print html to page
   document.getElementById('quote-box').innerHTML = html;
