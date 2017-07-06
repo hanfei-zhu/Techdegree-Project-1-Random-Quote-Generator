@@ -25,6 +25,8 @@ function printQuote(){
   }
   html += '</p>';
 
+  html += '<BODY onload="changeBackground('red');">'
+
   // print html to page
   document.getElementById('quote-box').innerHTML = html;
 
@@ -33,5 +35,3 @@ function printQuote(){
 function changeBackground(color) {
    document.body.style.background = color;
 }
-
-<BODY onload="changeBackground('red');">
