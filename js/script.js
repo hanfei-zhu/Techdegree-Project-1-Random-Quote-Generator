@@ -29,3 +29,9 @@ function printQuote(){
   document.getElementById('quote-box').innerHTML = html;
 
 }
+
+function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+<BODY onload="changeBackground('red');">
