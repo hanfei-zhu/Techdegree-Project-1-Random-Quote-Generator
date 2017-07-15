@@ -33,5 +33,5 @@ function printQuote(){
 }
 
 function changeBackground(color) {
-   document.body.style.background = color;
+   document.body.background-color = color;
 }
