@@ -3,6 +3,8 @@
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 document.getElementById('loadQuote').addEventListener("click", changeRandomBackgroundColor, false);
+setTimeout(printQuote, 3000);
+setTimeout(changeRandomBackgroundColor, 3000);
 
 function getRandomQuote(){
   /* function selects a random quote from quotes array
@@ -34,5 +36,6 @@ function printQuote(){
 }
 
 function changeRandomBackgroundColor() {
+  // choose a random colour for the background
   document.body.style.backgroundColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
 }
