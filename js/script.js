@@ -39,5 +39,5 @@ function changeRandomBackgroundColor() {
   // choose a random colour for the background
   var random_colour = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
   document.body.style.backgroundColor = random_colour;
-  document.loadQuote.background-color = random_colour;
+  document.loadQuote.style.backgroundColor = random_colour;
 }
