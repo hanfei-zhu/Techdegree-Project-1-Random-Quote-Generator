@@ -2,7 +2,7 @@
 // when user clicks anywhere on the button, the "printQuote" function is called
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-document.getElementById('loadQuote').addEventListener("click", changeBackground, false);
+document.getElementById('loadQuote').addEventListener("click", changeRandomBackgroundColor, false);
 
 function getRandomQuote(){
   /* function selects a random quote from quotes array
@@ -33,6 +33,6 @@ function printQuote(){
 
 }
 
-function changeBackground() {
-  document.body.style.backgroundColor = "red";
+function changeRandomBackgroundColor() {
+  document.body.style.backgroundColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
 }
