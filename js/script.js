@@ -37,5 +37,7 @@ function printQuote(){
 
 function changeRandomBackgroundColor() {
   // choose a random colour for the background
-  document.body.style.backgroundColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+  var random_colour = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+  document.body.style.backgroundColor = random_colour;
+  document.getElementById('loadQuote').background-color = random_colour;
 }
