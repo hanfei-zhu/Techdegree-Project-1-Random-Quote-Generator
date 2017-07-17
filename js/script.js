@@ -6,7 +6,7 @@ document.getElementById('loadQuote').addEventListener("click", changeRandomBackg
 setTimeout(printQuote, 3000);
 setTimeout(changeRandomBackgroundColor, 3000);
 
-var quote_list = [];
+var quotes_list = [];
 
 function getRandomQuote(){
   /* function selects a random quote from quotes array
@@ -20,12 +20,12 @@ function getRandomQuote(){
     quotes_list = [];
   }
   // Check if the quote has already been shown, if it has, create a new one
-  while (quote_list.includes(random_quote)) {
+  while (quotes_list.includes(random_quote)) {
     random_int = parseInt(Math.random() * (quotes.length));
     random_quote = quotes[random_int];
   }
 
-  quote_list.push(random_quote);
+  quotes_list.push(random_quote);
   console.log(random_quote);
   return random_quote;
 }
