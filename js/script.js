@@ -3,8 +3,8 @@
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 document.getElementById('loadQuote').addEventListener("click", changeRandomBackgroundColor, false);
-setTimeout(printQuote, 3000);
-setTimeout(changeRandomBackgroundColor, 3000);
+setInterval(printQuote, 3000);
+setInterval(changeRandomBackgroundColor, 3000);
 
 var quotes_list = [];
 
