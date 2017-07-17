@@ -27,6 +27,7 @@ function getRandomQuote(){
 
   quotes_list.push(random_quote);
   console.log(random_quote);
+  console.log(quotes_list.length)
   return random_quote;
 }
 
