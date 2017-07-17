@@ -26,6 +26,7 @@ function getRandomQuote(){
   }
 
   quote_list.push(random_quote);
+  console.log(random_quote);
   return random_quote;
 }
 
