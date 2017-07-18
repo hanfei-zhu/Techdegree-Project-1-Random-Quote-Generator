@@ -46,9 +46,7 @@ function printQuote(){
     html += '<span class="year">' + random_quote.year + '</span>';
   }
   html += '</p>';
-
-  html += '<BODY onload="changeBackground("red");">';
-
+  
   // print html to page
   document.getElementById('quote-box').innerHTML = html;
 
